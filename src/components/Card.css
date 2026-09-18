@@ -1,0 +1,19 @@
+.card {
+  position: relative;
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #fff;
+  border-radius: 6px;
+}
+.card .front {
+  position: absolute;
+  visibility: hidden;
+}
+
+.card .back {
+  position: relative;
+}
